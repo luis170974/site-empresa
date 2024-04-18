@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    
+    
+}
+
+
+body {
+    background-color: rgb(97, 105, 115);
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.header-site {
+    height: 100px;
+    background-color: #262f45;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 80px;
+    border-bottom: 1px solid #282828;
+    font-weight: bolder;
+    border-bottom: 1px solid #51618a;
+}
+
+.header-site .logo {
+    display: flex;
+    gap: 15px;
+    cursor: pointer;
+    
+}
+
+.header-site .logo img {
+    width: 200px;
+}
+
+.header-site .menu {
+    display: flex;
+    
+    margin-top: 20px;
+    gap: 30px;
+    list-style: none;
+
+}
+
+
+
+.header-site .menu li a {
+    padding: 30px;
+    color: #0099ff;
+    
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.header-site .menu li a:hover {
+    color: #FFF;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.home .carousel .carousel-inner {
+    height: 10rem;
+}
+
+.home .carousel .carousel-inner .carousel-item img{
+    height: 50%;
+   
+}
+
+.computadores {
+    background-color: rgb(232, 232, 232);
+    font-family:"Open Sans", Arial, Helvetica, sans-serif;
+    
+}
+
+.container .row {
+    gap: 30px;
+   
+    justify-content: center;
+    
+}
+
+.container .row .col-3 .card {
+    margin-top: 20px;
+    border: 0;
+    box-shadow: 0;
+
+    margin-bottom: 5px;
+}
+
+
+.container .row .col-3 .card .card-title {
+    text-align: center;
+}
+
+.container .row .col-3 .card img {
+    padding: 40px;
+    border-bottom: 1px solid #bdbdbd;
+}
+
+.container .row .col-3 .card .card-body .btn-primary {
+    background-color: #262f45;
+    display: flex;
+    justify-content: center;
+}
+
+.container .row .col-3 .card .card-body .btn-primary:hover {
+    background-color: #ffffff;
+    color: #262f45;;
+}
+
+.container .row .col-3 .card .price  {
+    margin-bottom: 1px;
+    font-size: 15px;
+}
+
+.container .row .col-3 .card .price span {
+    text-decoration: line-through;
+    margin: 0px 3px 1px 0px;
+}
+
+.container .row .col-3 .card .price-after  {
+    font-weight: 800;
+    letter-spacing: -1px;
+    font-size: 15px;
+}
+
+.container .row .col-3 .card .price-after span {
+    font-size: 22px;
+
+}
+
+
+
+
+

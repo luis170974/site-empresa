@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    
+    
+}
+
+
+body {
+    background-color: rgb(97, 105, 115);
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.header-site {
+    height: 100px;
+    background-color: #262f45;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 80px;
+    border-bottom: 1px solid #282828;
+    font-weight: bolder;
+    border-bottom: 1px solid #51618a;
+}
+
+.header-site .logo {
+    display: flex;
+    gap: 15px;
+    cursor: pointer;
+    
+}
+
+.header-site .logo img {
+    width: 200px;
+}
+
+.header-site .menu {
+    display: flex;
+    
+    margin-top: 20px;
+    gap: 30px;
+    list-style: none;
+
+}
+
+
+
+.header-site .menu li a {
+    padding: 30px;
+    color: #0099ff;
+    
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.header-site .menu li a:hover {
+    color: #FFF;
+}
+
+.formulario-suporte .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.formulario-suporte form {
+    background-color: rgb(232, 232, 232);
+}
+
+.formulario-suporte form .container {
+    margin-top:20px;
+}
