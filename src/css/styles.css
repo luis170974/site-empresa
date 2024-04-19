@@ -81,17 +81,15 @@ body {
 }
 
 .container .row {
-    gap: 30px;
-   
+    gap: 50px;
     justify-content: center;
     
 }
 
 .container .row .col-3 .card {
-    margin-top: 20px;
+    margin-top: 1rem;
     border: 0;
     box-shadow: 0;
-
     margin-bottom: 5px;
 }
 
@@ -105,11 +103,7 @@ body {
     border-bottom: 1px solid #bdbdbd;
 }
 
-.container .row .col-3 .card .card-body .btn-primary {
-    background-color: #262f45;
-    display: flex;
-    justify-content: center;
-}
+
 
 .container .row .col-3 .card .card-body .btn-primary:hover {
     background-color: #ffffff;
@@ -136,6 +130,25 @@ body {
     font-size: 22px;
 
 }
+
+@media (max-width: 450px) {
+    .home .carousel .carousel-inner {
+        height: 3.5rem;
+    }
+
+    .container .row {
+        gap: 0px;
+        
+        justify-content: center;
+        
+    }
+
+    .container .row .col-3  {
+        width: 20rem;
+    }
+
+
+  }
 
 
 
