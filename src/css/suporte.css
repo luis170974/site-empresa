@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     
-    
 }
 
 
@@ -58,17 +57,152 @@ body {
     color: #FFF;
 }
 
-.formulario-suporte .container{
+.form {
+    background-color: rgb(232, 232, 232);
+    height: 100vh;
+    padding-top: 15px;
+    
+    
+}
+
+.formulario-suporte .form .form-group{
+    margin-top: 5px;
+    font-weight: 700;
+    color: #262f45;
+
+
+}
+
+.formulario-suporte .form .form-group label{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+
+
+}
+
+
+.formulario-suporte .form button{
+    margin-top: 20px;
+    padding: 10px;
+
+
+}
+
+.formulario-suporte .form button:hover{
+    background-color: #262f45;
+
+
+}
+
+
+.formulario-suporte .form .container{
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 20px;
+
 
 }
 
-.formulario-suporte form {
-    background-color: rgb(232, 232, 232);
+.formulario-suporte .form .container{
+    background-color: #fff;
+    padding: 10px;
+    width: 40%;
+    
+    
 }
 
-.formulario-suporte form .container {
-    margin-top:20px;
+
+
+@media (max-width: 450px) {
+
+    .header-site .logo {
+        display: flex;
+        cursor: pointer;
+        padding: 10px;
+    
+    }
+
+    .header-site .logo img {
+        width: 80px;
+    
+    }
+
+    .header-site .menu {
+        display: flex;
+        margin-top: 10px;
+        gap: 10px;
+        list-style: none;
+    
+    }
+
+    .header-site .menu li a {
+        padding: 5px;
+        color: #0099ff;
+        padding-left: 1px;
+        font-size: 10px;
+        text-decoration: none;
+    }
+
+    .header-site .menu  #account-icon{
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    .form {
+        background-color: rgb(232, 232, 232);
+        height: 100vh;
+        padding-top: 20px;
+        
+        
+    }
+    
+    .formulario-suporte .form .form-group{
+        margin-top: 5px;
+        font-weight: 700;
+        color: #262f45;
+    
+    
+    }
+    
+    .formulario-suporte .form .form-group label{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    
+    
+    
+    }
+    
+    
+    .formulario-suporte .form button{
+        margin-top: 20px;
+        padding: 10px;
+    
+    
+    }
+    
+    .formulario-suporte .form button:hover{
+        background-color: #262f45;
+    
+    
+    }
+    
+    
+    .formulario-suporte .form .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 20px;
+    
+    
+    }
+    
+    .formulario-suporte .form .container {
+        background-color: #fff;
+        padding: 5px;
+        width: 80%;
+        
+        
+    }
 }
