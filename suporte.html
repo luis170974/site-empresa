@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="sweetalert2.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 
     <!-- Bootstrap -->
@@ -42,11 +43,11 @@
                 </li>
 
                 <li>
-                    <a href="suporte.html">Contato</a>
+                    <a href="suporte.html">Suporte</a>
                 </li>
 
                 <li>
-                    <a href=""><i class="fa fa-user-circle" aria-hidden="true"></i></a>
+                    <a href="perfil.html"><i class="fa fa-user-circle" aria-hidden="true"></i></a>
                 </li>
 
             </ul>
@@ -56,17 +57,14 @@
     <main class="formulario-suporte">
         <form class="form">
             <div class="container">
+                <h2 class="p-2">Suporte via Email</h2>
                 <div class="form-group col-md-6">
                     <label for="inputEmail4">Email</label>
                     <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
                 </div>
                 <div class="form-group col-md-6">
-                    <label for="inputPassword4">Senha</label>
-                    <input type="password" class="form-control" id="inputPassword4" placeholder="Senha">
-                </div>
-                <div class="form-group col-md-6">
                     <label for="inputAddress">Endereço</label>
-                    <input type="text" class="form-control" id="inputAddress" placeholder="Rua dos Bobos, nº 0">
+                    <input type="text" class="form-control" id="inputAddress" placeholder="Rua Geronimo Walker, nº 0">
                 </div>
                 <div class="form-group col-md-6">
                     <label for="inputCity">Cidade</label>
@@ -80,13 +78,16 @@
                     <label for="inputCEP">CEP</label>
                     <input type="text" class="form-control" id="inputCEP">
                 </div>
-                <button type="submit" class="btn btn-primary">Enviar</button>
+                <button id="meuBotao"  class="btn btn-primary">Enviar</button>
             </div>
         </form>
+
+        
     </main>
 
-
-
+    
 </body>
+
+
 
 </html>

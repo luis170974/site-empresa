@@ -182,11 +182,12 @@ body {
     
     }
     
-    .formulario-suporte .form button:hover{
+    .formulario-suporte .form .container #meuBotao:hover{
         background-color: #262f45;
     
     
     }
+
     
     
     .formulario-suporte .form .container{
@@ -205,4 +206,9 @@ body {
         
         
     }
+
+    .formulario-suporte  #buttons #btn-facebook:hover{
+        background-color: #fff;
+    }
+
 }
